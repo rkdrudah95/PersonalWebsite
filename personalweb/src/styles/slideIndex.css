@@ -1,0 +1,56 @@
+@keyframes slideIn {
+  from {
+    transform: translateX(20%);
+  }
+  to {
+    transform: translateX(-5%);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(-5%);
+  }
+  to {
+    transform: translateX(20%);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-25%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slideIn {
+  animation: slideIn 0.5s forwards;
+}
+
+.slideOut {
+  animation: slideOut 0.5s forwards;
+}
+
+.slideDown {
+  animation: slideDown 0.5s ease-out forwards;
+}
+
+.slide-button {
+  text-decoration: inherit;
+  font-family: "Silkscreen";
+  background-color: #ffffff;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.slide-link a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-family: "Silkscreen";
+  font-size: 25px;
+}

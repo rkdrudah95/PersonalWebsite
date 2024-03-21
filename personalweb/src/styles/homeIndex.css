@@ -1,0 +1,89 @@
+.introduction {
+  align-self: stretch;
+  text-align: left;
+  font-family: "Silkscreen";
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+.introduction h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 400;
+  position: relative;
+}
+
+.header {
+  align-self: stretch;
+}
+
+.header h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Silkscreen";
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px;
+  gap: 20px;
+  line-height: 500%;
+}
+
+.left-content {
+  flex: 1.5;
+  margin-left: 80px;
+  align-items: left;
+}
+
+.right-content {
+  flex: 0.5;
+  margin-right: 10px;
+  align-items: right;
+}
+
+.typewriter-wrapper {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.dynamic-text {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: "Silkscreen";
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+.style1 {
+  color: rgb(143, 143, 255);
+}
+
+.style2 {
+  color: rgb(122, 240, 133);
+}
+
+.style3 {
+  color: rgb(199, 162, 70);
+}
+
+.static-text {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: "Silkscreen";
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  position: relative;
+  margin-right: 20px;
+}

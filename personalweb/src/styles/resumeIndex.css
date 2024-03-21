@@ -1,0 +1,30 @@
+.resume-container {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 2.5%;
+  margin-left: 22.5%;
+  margin-right: 22.5%;
+  text-align: center;
+  font-size: 12.5px;
+  color: white;
+}
+
+.resume-privateinfo {
+  margin-top: 1%;
+  font-size: 18px;
+}
+
+.resume-subtitle {
+  margin-top: 3%;
+  text-align: left;
+  border-bottom: 2px solid #ffffff;
+}
+
+.resume-rightword {
+  text-align: right;
+}
+
+.resume-paragraph {
+  margin-top: 1%;
+  text-align: left;
+  font-size: 18px;
+}

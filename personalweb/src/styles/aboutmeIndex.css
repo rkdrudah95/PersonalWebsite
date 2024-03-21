@@ -1,0 +1,37 @@
+.aboutme-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  height: 100vh;
+  gap: 50px;
+}
+
+.aboutme-left {
+  flex: 1;
+}
+
+.aboutme-mid {
+  flex: 1;
+}
+
+.aboutme-right {
+  flex: 1;
+}
+
+.aboutme {
+  font-family: "Silkscreen";
+  color: #ffffff;
+  font-size: 100px;
+  letter-spacing: 3px;
+}
+
+.aboutme-content {
+  font-family: "Silkscreen";
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-left: 25%;
+}
